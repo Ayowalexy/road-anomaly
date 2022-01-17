@@ -1,11 +1,36 @@
 {
   "expo": {
-    "name": "firstProject",
-    "slug": "firstProject",
+    "name": "ROMOC",
+    "slug": "ROMOC",
     "version": "1.0.0",
+    "sdkVersion": "42.0.0",
+    "icon": "./src/assets/icon.png",
+    "splash": {
+      "image": "./src/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFF"
+    },
     "assetBundlePatterns": [
       "**/*"
+    ],
+    "android": {
+      "package": "com.ayowalexy.ROMOC"
+    },
+    "plugins": [
+      "sentry-expo"
     ]
   },
-  "name": "firstProject"
+  "name": "ROMOC",
+  "android": {
+    "adaptiveIcon": {
+      "foregroundImage": "./src/assets/adaptive-icon.png",
+      "backgroundColor": "#171C24"
+    },
+    "package": "ROMOC",
+    "versionCode": 1
+  },
+  "ios": {
+    "bundleIdentifier": "ROMOC",
+    "buildNumber": "1.0.0"
+  }
 }
